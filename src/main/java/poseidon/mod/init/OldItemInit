@@ -1,0 +1,122 @@
+package poseidon.supernaturalmod.init;
+
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.fml.common.registry.ForgeRegistries;
+import poseidon.supernaturalmod.init.food.CustomFood;
+import poseidon.supernaturalmod.init.food.CustomFood3;
+import poseidon.supernaturalmod.init.food.medicines.CustomMedicine;
+import poseidon.supernaturalmod.init.food.medicines.CustomMedicine2;
+import poseidon.supernaturalmod.init.food.medicines.CustomMedicine3;
+import poseidon.supernaturalmod.init.food.medicines.CustomMedicine4;
+import poseidon.supernaturalmod.init.food.medicines.CustomMedicine6;
+import poseidon.supernaturalmod.init.items.CustomItem;
+import poseidon.supernaturalmod.init.items.CustomOil;
+import poseidon.supernaturalmod.init.items.itemslore.CustomItemLore3;
+import poseidon.supernaturalmod.init.items.itemslore.CustomItemLore5;
+import poseidon.supernaturalmod.init.items.misc.TeleportStaff;
+import poseidon.supernaturalmod.init.items.misc.TestItem;
+import poseidon.supernaturalmod.init.items.misc.TntStaff;
+
+public class ItemInit {
+    
+    public static Item teleport_item;
+    public static Item power_ingot;
+    public static Item angel_iron_ingot, forged_angel_iron;
+    public static Item demon_iron_ingot, forged_demon_iron;
+    public static Item power_source;
+    public static Item activated_power_source;
+    public static Item power_amplifier;
+    public static Item steel_ingot;
+    public static Item obsidian_ingot, obsidian_stick;
+    public static Item oil;
+    public static Item mre;
+    public static Item omelet;
+    public static Item leaf_soup;
+    public static Item dry_rotten_flesh;
+    public static Item obsidian_reinforcement_kit;
+    public static Item pure_power;
+    public static Item destroyer_item;
+    public static Item test_item;
+    public static Item medicine1;
+    public static Item medicine2;
+    public static Item medicine3;
+    public static Item medicine4;
+    public static Item medicine5;
+    
+    
+    public static void init() {
+        
+        //initializing + giving name
+        power_ingot = new CustomItem("power_ingot", 64);
+        angel_iron_ingot = new CustomItem("angel_iron_ingot", 64);
+        forged_angel_iron = new CustomItem("forged_angel_iron", 64);
+        steel_ingot = new CustomItem("steel_ingot", 64);
+        demon_iron_ingot = new CustomItem("demon_iron_ingot", 64);
+        obsidian_ingot = new CustomItem("obsidian_ingot", 64);
+        obsidian_stick = new CustomItem("obsidian_stick", 64);
+        dry_rotten_flesh = new CustomFood("dry_rotten_flesh", 4, true, 64, 0.4F);
+        oil = new CustomOil("oil", 64, 10000);
+        power_source = new CustomItem("power_source", 16);
+        activated_power_source = new CustomItemLore5("activated_power_source", 16);
+        power_amplifier = new CustomItem("power_amplifier", 16);
+        forged_demon_iron = new CustomItem("forged_demon_iron", 64);
+        mre = new CustomFood("mre", 10, false, 8, 4.0F);
+        omelet = new CustomFood("omelet", 4, false, 64, 0.4F);
+        leaf_soup = new CustomFood3("leaf_soup", 4, false, 1, 0.2F);
+        obsidian_reinforcement_kit = new CustomItem("obsidian_reinforcement_kit", 1);
+        pure_power = new CustomItemLore3("pure_power", 16);
+        medicine1 = new CustomMedicine("medicine1", 2, false, 16, 0.2F);
+        medicine2 = new CustomMedicine2("medicine2", 2, false, 16, 0.2F, 4);
+        medicine3 = new CustomMedicine3("medicine3", 2, false, 16, 0.2F);
+        medicine4 = new CustomMedicine4("medicine4", 2, false, 16, 0.2F);
+        medicine5 = new CustomMedicine6("medicine5", 2, false, 16, 0.2F);
+        teleport_item = new TeleportStaff("teleport_item", 1);
+        destroyer_item = new TntStaff("destroyer_item", 1);
+        test_item = new TestItem("test_item", 1);
+        
+    }
+    
+    
+    public static void register() {
+        
+        // registering by calling .registerItem function
+
+        registerItem(test_item);
+        registerItem(teleport_item);
+        registerItem(destroyer_item);
+        registerItem(power_ingot);
+        registerItem(angel_iron_ingot);
+        registerItem(power_amplifier);
+        registerItem(steel_ingot);
+        registerItem(forged_angel_iron);
+        registerItem(mre);
+        registerItem(demon_iron_ingot);
+        registerItem(obsidian_ingot);
+        registerItem(obsidian_stick);
+        registerItem(omelet);
+        registerItem(obsidian_reinforcement_kit);
+        registerItem(medicine1);
+        registerItem(medicine2);
+        registerItem(medicine3);
+        registerItem(medicine4);
+        registerItem(pure_power);
+        registerItem(leaf_soup);
+        registerItem(dry_rotten_flesh);
+        registerItem(oil);
+        registerItem(medicine5);
+        registerItem(forged_demon_iron);        
+        
+    }
+    
+    
+    
+    
+    public static void registerItem(Item item) {
+        
+        ForgeRegistries.ITEMS.register(item);
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+    }
+    // , "inventory"
+}

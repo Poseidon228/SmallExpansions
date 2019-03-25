@@ -1,0 +1,70 @@
+{
+     
+        "item.effects.stasis": {
+        "category": "item",
+        "subtitle": "item.effects.stasis",
+        "sounds": [{"name": "psm:item/effects/stasis", "stream": true}]
+    },
+    
+        "item.effects.outpost": {
+        "category": "item",
+        "subtitle": "item.effects.outpost",
+        "sounds": [{"name": "psm:item/effects/outpost", "stream": true}]
+    },
+    
+        "item.effects.chestsold": {
+        "category": "item",
+        "subtitle": "item.effects.chestsold",
+        "sounds": [{"name": "psm:item/effects/chestsold", "stream": true}]
+    },
+    
+        "item.effects.badisland": {
+        "category": "item",
+        "subtitle": "item.effects.badisland",
+        "sounds": [{"name": "psm:item/effects/badisland", "stream": true}]
+    },
+    
+         "item.effects.danger": {
+        "category": "item",
+        "subtitle": "item.effects.danger",
+        "sounds": [{"name": "psm:item/effects/danger", "stream": true}]
+    },
+    
+        "item.effects.marauder": {
+        "category": "item",
+        "subtitle": "item.effects.marauder",
+        "sounds": [{"name": "psm:item/effects/marauder", "stream": true}]
+    },
+    
+        "item.effects.teleport": {
+        "category": "item",
+        "subtitle": "item.effects.teleport",
+        "sounds": [{"name": "psm:item/effects/teleport", "stream": true}]
+    },
+    
+            "item.effects.mirror": {
+        "category": "item",
+        "subtitle": "item.effects.mirror",
+        "sounds": [{"name": "psm:item/effects/mirror", "stream": true}]
+    },
+    
+        "item.effects.checkpoint": {
+        "category": "item",
+        "subtitle": "item.effects.checkpoint",
+        "sounds": [{"name": "psm:item/effects/checkpoint", "stream": true}]
+    },
+    
+    "item.effects.immigrant": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "psm:item/effects/immigrant",
+        "stream": true
+      }
+    ]
+  }
+    
+
+    
+    
+}

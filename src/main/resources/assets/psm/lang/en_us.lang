@@ -1,0 +1,81 @@
+﻿
+		ITEMS
+itemGroup.aristoisitems=Aristois Items
+item.stasis.name=§bStasis
+item.rift_pearl.name=§dRift
+item.fly_essence.name=§aFly Essence
+item.empowered_gunpowder.name=§4Empowered Gunpowder
+enchantment.lava_walker=§4Lava Walker
+enchantment.lumber=§2Lumber
+enchantment.unbreakable=§dUnbreakable
+
+item.mirror.name=Mirror
+item.charged_fireball.name=§4Charged Fireball
+item.elytron_dust.name=§9Elytron Dust
+item.projectile_shield.name=Projectile Shield
+item.elytron_dust_emitter.name=Elytron Dust Emitter
+item.bouncers.name=Bouncers
+item.wing.name=§dWing
+item.bundle_of_feathers.name=Bundle of Feathers
+item.experience_spawner.name=Experience Spawner
+
+item.depth_strider_charm.name=§eDepth Strider Charm§r
+item.projectile_protection_charm.name=§eProjectile Charm§r
+item.fire_protection_charm.name=§eFire Protection Charm§r
+item.feather_falling_charm.name=§eFall Damage Charm§r
+item.slowfall_charm.name=§eSlowfall Charm§r
+
+item.creative_tool.name=Creative Tool
+item.velocity_changer.name=§3Velocity Changer
+item.ender_power.name=§4Ender Power
+item.inferno_rod.name=§cInferno Rod
+item.obsidian_ingot.name=Obsidian Ingot
+item.checkpoint_marker.name=§eCheckpoint Marker§r
+
+
+
+		TOOLS
+item.angel_blade.name=§bAngel Blade
+item.obsidian_sword.name=Obsidian Sword
+item.obsidian_hoe.name=Obsidian Hoe
+item.obsidian_axe.name=Obsidian Axe
+item.obsidian_pickaxe.name=Obsidian Pickaxe
+item.obsidian_spade.name=Obsidian Spade
+item.diamond_multitool.name=Diamond Multitool
+item.gold_multitool.name=Gold Multitool
+item.iron_multitool.name=Iron Multitool
+item.obsidian_multitool.name=Obsidian Multitool
+item.copper_multitool.name=Copper Multitool
+item.stone_multitool.name=Stone Multitool
+item.wood_multitool.name=Wooden Multitool
+item.baseball_bat.name=Baseball Bat
+item.iron_baseball_bat.name=Iron Baseball Bat
+
+item.mining_drill.name=Mining Drill
+
+item.emerald_pickaxe.name=Emerald Pickaxe
+item.emerald_spade.name=Emerald Spade
+item.emerald_hoe.name=Emerald Hoe
+item.emerald_axe.name=Emerald Axe
+item.emerald_sword.name=Emerald Sword
+
+item.concentrated_nether_wart.name=Concentrated Nether Wart
+
+item.emerald_multitool.name=Emerald Multitool
+
+item.engineering_pickaxe.name=Engineering Pickaxe
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "psm",
+  "name": "Small Additions",
+  "description": "Small additions",
+  "version": "${1.0}",
+  "mc_version": "${1.12}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Poseidon_22"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
